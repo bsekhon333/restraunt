@@ -1,0 +1,181 @@
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Baloo Bhaina', cursive;
+}
+
+.jumbotron {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.navbar-default {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+
+
+
+.slideLogo {
+    height:350px;
+    width: 370px;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+
+
+/*=====Story Section=====*/
+
+#story {
+    position: relative;
+    top: 20px;
+}
+
+#story .heading {
+    font-family: 'Lobster', cursive;
+    color: #f15a24;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+#story h5 {
+    color: black;
+}
+
+.details {
+    padding-top: 30px;
+}
+
+.details p {
+    text-align: left;
+    z-index: 1;
+}
+
+
+
+#year {
+    font-family: 'Lobster', cursive;
+    font-size: 200px;
+    color: rgba(241,90,36,0.1);
+    z-index: 0;
+    position:relative;
+    top: -300px;
+}
+
+
+
+
+
+/*=====Review section=====*/
+
+#review {
+    height: 500px;
+    width: 100%;
+    background: url('../../img/food_review.jpg') no-repeat center center;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#review h1 {
+    font-family: 'Lobster', cursive;
+    color: #f15a24;
+    text-shadow: 2px 2px 2px black;
+}
+
+#review span {
+    color:white;
+    font-size: 20px;
+}
+
+
+
+
+/*=====Menu/Pill_Tab of Food=====*/
+
+
+
+#menu {
+/*    height: 750px;*/
+    width: 100%;
+    background: url('../../img/black_linen.png') no-repeat center center;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+}
+
+#menu h1 {
+    font-family: 'Lobster', cursive;
+    color: #f15a24;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 30px;
+}
+
+.nav-pills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-pills>li>a {
+    background-color: #f15a24;
+    color: white;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    background-color: #F12253;
+}
+
+.tab-content {
+    color:white;
+}
+
+
+
+/*=====Contact=====*/
+
+.form {
+
+}
+
+#contact {
+    height: 750px;
+    background-color: #f15a24;
+    padding-top: 50px;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+@media only screen and (max-width:600px) {
+    #menu .container {
+        height: 1200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
