@@ -76,7 +76,7 @@ html, body {
 #review {
     height: 500px;
     width: 100%;
-    background: url('../../img/food_review.jpg') no-repeat center center;
+    background: url('../img/food_review.jpg') no-repeat center center;
     background-size: 100%;
     display: flex;
     align-items: center;
@@ -103,7 +103,7 @@ html, body {
 #menu {
 /*    height: 750px;*/
     width: 100%;
-    background: url('../../img/black_linen.png') no-repeat center center;
+    background: url('../img/black_linen.png') no-repeat center center;
     background-size: 100%;
     display: flex;
     align-items: center;
